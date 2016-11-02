@@ -1,31 +1,11 @@
 'use strict';
 var Alexa = require('alexa-sdk');
-var APP_ID = "amzn1.ask.skill.a29357d4-7f98-4812-bfe4-6ade6ec49865";
+var APP_ID = undefined;
 
 var languageStrings = {
     "en-GB": {
         "translation": {
             "FACTS": [
-                "HCP stands for HANA Cloud Platform",
-                "HCP is an in-memory Platform as a service offering from SAP",
-                "With HCP, you can build, extend and run applications on SAP HANA in the cloud",
-                "You have flexible subscription models to purchase HCP",
-                "With an HCP account, you can access optional services for apps, databases and infrastructure",
-                "Using HCP for your apps gives you instant access to the power of SAP HANA",
-                "You can create innovate, consumer grade applications using app services",
-                "You can extend both cloud and on-premise applications using HCP",
-                "As well as apps, HCP includes support for integration, security, analytics, mobile, portal and collaboration scenarios",
-                "If you only want a HANA database, you can use the SAP HANA DB Services through HCP",
-                "You can configure your HANA instance to have from 128Gb to 1Tb storage on HCP",
-                "To make management easier, all config tasks are achieved through a cloud management console, run in your browser",
-                "With HCP, you can build apps using Java, or HTML and JavaScript, or natively using HANA and XS",
-                "The persistence layer on HCP allows you to build transactional, analytical, predictive and many other solution types",
-                "For flexibility, you can purchase the combination of services and capabilities you need on your HCP account",
-                "At the moment, all HCP accounts are hosted only in SAP's own datacentres",
-                "You can use HCP to build on old SAP systems - you don't need S/4 HANA",
-                "SAP HCP makes it easy to create solutions that integrate different platforms, such as Ariba, SuccessFactors and Hybris",
-                "Your developers will gain access to a number of cloud based tools that enable development of HANA and UI5 apps",
-                "Don't confuse HCP with HEC - SAP HANA Enterprise Cloud is an enterprise-class managed cloud offering"
             ],
             "SKILL_NAME" : "SAP HCP Facts",
             "GET_FACT_MESSAGE" : "Here's your fact: ",
