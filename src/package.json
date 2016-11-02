@@ -1,0 +1,19 @@
+{
+  "name": "alexa-skill-demo-birthdays",
+  "version": "1.0.0",
+  "description": "Simple demo for Alexa to calculate the number of days to a person's birthday",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "fact"
+  ],
+  "author": "wizbongre.co.uk",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6"
+  }
+}
